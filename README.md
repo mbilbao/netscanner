@@ -1,37 +1,28 @@
 # Network Scanner
 
-Este es un proyecto que permite escanear una red local en busca de hosts, descubrir sus puertos abiertos y obtener información sobre ellos. Además, permite buscar vulnerabilidades conocidas en cada uno de los hosts encontrados.
+This is a project that allows scanning a local network for hosts, discovering their open ports, and obtaining information about them. Additionally (WIP), it allows searching for known vulnerabilities in each of the found hosts.
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local.
-2. Ejecuta `npm install` para instalar las dependencias necesarias.
-3. Instala nmap en la máquina local.
-5. Ejecuta el proceso principal de escaneo de red con `npm start`.
+1. Clone this repository on your local machine.
+2. Run npm install to install the necessary dependencies.
+3. Install nmap on the local machine.
+4. Run the main network scanning process with `npm start`.
 
-## Configuración
+## Configuration
 
-Antes de ejecutar la aplicación, es necesario configurar las siguientes variables de entorno en un archivo .env en la raíz del proyecto:
+Before running the application, it is necessary to configure the following environment variables in a .env file at the root of the project:
 
 ```
 SHODAN_API_KEY=XXXXXXXX
 INTERVAL_MINUTES=3
 ```
 
-SHODAN_API_KEY: clave de API de Shodan para acceder a la API de vulnerabilidades.
-INTERVAL_MINUTES: intervalo de tiempo en minutos entre las verificaciones de vulnerabilidades.
+SHODAN_API_KEY: Shodan API key to access the vulnerability API.
+INTERVAL_MINUTES: time interval in minutes between vulnerability checks.
 
+## Usage
+The main network scanning process runs automatically when executing the npm start command.
 
-
-## Uso
-
-El proceso principal de escaneo de red se ejecuta automáticamente al ejecutar el comando `npm start`.
-
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si tienes alguna idea o sugerencia para mejorar el proyecto, por favor, abre un issue o una pull request en este repositorio.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
+## Contributions
+Contributions are welcome. If you have any ideas or suggestions to improve the project, please open an issue or a pull request in this repository.
