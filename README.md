@@ -19,6 +19,7 @@ INTERVAL_MINUTES=3
 ```
 
 SHODAN_API_KEY: Shodan API key to access the vulnerability API.
+
 INTERVAL_MINUTES: time interval in minutes between vulnerability checks.
 
 ## Usage
