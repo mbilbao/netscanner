@@ -1,0 +1,16 @@
+{
+  "name": "netscanner",
+  "version": "1.0.0",
+  "description": "a NodeJS network scanner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.5",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.1",
+    "node-nmap": "^4.0.0",
+    "node-nmap-vulners": "^1.0.2"
+  }
+}
